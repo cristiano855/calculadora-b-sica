@@ -1,0 +1,41 @@
+<html>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+  <!-- Início do script JavaScript -->
+  <script>
+    // Define uma função 'soma' que aceita dois argumentos (a e b) e retorna sua soma.
+    function soma(a, b) {
+      return a + b;
+    }
+
+    // Define uma função 'subtracao' que aceita dois argumentos (a e b) e retorna o resultado de a menos b.
+    function subtracao(a, b) {
+      return a - b;
+    }
+
+    // Solicita ao usuário para inserir o primeiro número e converte a entrada em um número (Number).
+    var n1 = Number(prompt("Número 1"));
+
+    // Solicita ao usuário para inserir o segundo número e converte a entrada em um número.
+    var n2 = Number(prompt("Número 2"));
+
+    // Pede ao usuário para inserir a operação desejada (soma "+" ou subtração "-").
+    var op = prompt("Operação");
+
+    // Declara uma variável 'resultado' sem atribuir um valor inicial.
+    var resultado;
+
+    // Verifica se a operação inserida é uma soma.
+    if (op == "+") {
+      // Se for soma, chama a função 'soma' com n1 e n2 como argumentos e armazena o resultado.
+      resultado = soma(n1, n2);
+    } else if (op == "-") {
+      // Se for subtração, chama a função 'subtracao' com n1 e n2 como argumentos e armazena o resultado.
+      resultado = subtracao(n1, n2);
+    }
+
+    // Exibe o resultado da operação em uma caixa de alerta.
+    alert(resultado);
+  </script>
+  <!-- Fim do script JavaScript -->
+</html>

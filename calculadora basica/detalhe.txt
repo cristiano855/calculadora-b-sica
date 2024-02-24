@@ -1,0 +1,3 @@
+O script interage com o usuário através de caixas de diálogo,
+ pedindo dois números e a operação desejada (soma ou subtração).
+ Em seguida, ele executa a operação correspondente e exibe o resultado.
